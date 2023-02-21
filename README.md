@@ -1,14 +1,53 @@
-# Little Esty Shop
+# Little Etsy Shop
 
-## Background and Description
+## Table of Contents 
+- [Overview](#overview)
+- [Goals Achieved](#goals-achieved)
+- [Configuration](#configuration)
+- [How To Use](#how-to-use)
+- [Contributors](#contributors)
+- [Database Design](#database-design)
+- [Discounts Database Design](#discounts-database-design)
+- [Phases](#phases)
 
-"Little Esty Shop" is a group project that requires students to build a fictitious e-commerce platform where merchants and admins can manage inventory and fulfill customer invoices.
+## Overview
+Little-Esty-Shop is a two week-long group project of Module 2 at Turing School Of Software and Engineering back-end engineering program. Discount features were implemented by Anthony Tallent as the final solo project of the inning, over the course of 6 days.     
 
-## Learning Goals
-- Practice designing a normalized database schema and defining model relationships
-- Utilize advanced routing techniques including namespacing to organize and group like functionality together.
-- Utilize advanced active record techniques to perform complex database queries
-- Practice consuming a public API while utilizing POROs as a way to apply OOP principles to organize code
+## Goals Achieved    
+* Practice designing a normalized database schema and defining model relationships
+* Utilize advanced routing techniques including namespacing to organize and group like functionality together.
+* Utilize advanced active record techniques to perform complex database queries
+
+## Configuration 
+|             |               |               |               |
+|   :----:    |    :----:     |    :----:     |    :----:     |
+| Ruby 2.7.x  | SQL           | SimpleCov     | Heroku        |
+| Rails       | ActiveRecord  | Capybara      | VSCode        |
+| RSpec       | HTML5         | ShouldaMatcher| Launchy       |
+| Pry         | Github        | Git           | 
+
+## How to Use 
+**Visit** [This url](https://lit-gorge-02037.herokuapp.com/).     
+
+## Contributors 
+:bust_in_silhouette: **Anthony BlackwellTallent** 
+- [GitHub](https://github.com/anthonytallent)
+- [LinkedIn](https://www.linkedin.com/in/anthony-blackwell-tallent-b36916255/)
+
+:bust_in_silhouette: **Braxton Eddings** 
+- [GitHub](https://github.com/beddings81)
+
+:bust_in_silhouette: **Christian Mccabe** 
+- [GitHub](https://github.com/cemccabe)
+
+:bust_in_silhouette: **Allastair Lloyd** 
+- [GitHub](https://github.com/Adrlloyd)
+
+## Database Design
+![little-etsy-shop-db-design.png](https://i.postimg.cc/2SNYrYPc/little-etsy-shop-db-design.png)
+
+## Discounts Database Design
+[![Screen-Shot-2022-03-08-at-7-30-35-PM.png](https://i.postimg.cc/fTzKwcBB/Screen-Shot-2022-03-08-at-7-30-35-PM.png)](https://postimg.cc/G9fYKy0y)
 
 ## Requirements
 - must use Rails 5.2.x
@@ -17,37 +56,9 @@
 - must use GitHub branching, team code reviews via GitHub comments, and github projects to track progress on user stories
 - must include a thorough README to describe the project
 - must deploy completed code to Heroku
-- Continuous Integration / Continuous Deployment is not allowed
-- Any gems added to the project must be approved by an instructor
-
-## Setup
-
-This project requires Ruby 2.7.4.
-
-* Fork this repository
-* Clone your fork
-* From the command line, install gems and set up your DB:
-    * `bundle`
-    * `rails db:create`
-* Run the test suite with `bundle exec rspec`.
-* Run your development server with `rails s` to see the app in action.
 
 ## Phases
-
 1. [Database Setup](./doc/db_setup.md)
 1. [User Stories](./doc/user_stories.md)
 1. [Extensions](./doc/extensions.md)
 1. [Evaluation](./doc/evaluation.md)
-
-
-Little-Esty-Shop description
-
-Little Esty Shop shows our knowledge of Active Record and MVC relationships. 
-What we were able to accomplish
-- We got through all our user stories
-- We got through all the api stories
-- We learned a lot through trial and error
-- We made PLENTY of mistakes along the way and have a better grasp on how to specifically use AR and MVC relationships
-
-If we could go back and refactor the api methods out of our application helper and into other files where they would be more properly placed, we would.
-Given more time we'd love to refactor more, especially as we learn more about rails and all of it inticacies.
